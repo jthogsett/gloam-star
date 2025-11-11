@@ -3,14 +3,8 @@
   "tasks": {
     "dev": {},
     "build": {
-      "dependsOn": [
-        "prebuild",
-        "^build"
-      ],
-      "outputs": [
-        "output-file.txt",
-        "dist/**"
-      ]
+      "dependsOn": ["prebuild", "^build"],
+      "outputs": ["dist/**"]
     },
     "prebuild": {},
     "lint": {},

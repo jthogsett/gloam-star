@@ -24,21 +24,6 @@ importers:
         specifier: 'catalog:'
         version: 2.6.1
 
-  apps/app-a:
-    dependencies:
-      pkg-a:
-        specifier: workspace:*
-        version: link:../../packages/example/pkg-a
-      tooling-config:
-        specifier: workspace:*
-        version: link:../../packages/config/tooling-config
-
-  apps/app-b:
-    dependencies:
-      tooling-config:
-        specifier: workspace:*
-        version: link:../../packages/config/tooling-config
-
   apps/web:
     devDependencies:
       config-vite:
@@ -52,20 +37,6 @@ importers:
         version: 7.2.2
 
   packages/config/config-vite: {}
-
-  packages/config/tooling-config: {}
-
-  packages/example/pkg-a:
-    dependencies:
-      tooling-config:
-        specifier: workspace:*
-        version: link:../../config/tooling-config
-
-  packages/example/pkg-b:
-    dependencies:
-      tooling-config:
-        specifier: workspace:*
-        version: link:../../config/tooling-config
 
 packages:
 
