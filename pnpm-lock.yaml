@@ -93,7 +93,6 @@ packages:
 
   /turbo@2.6.1:
     resolution: {integrity: sha512-qBwXXuDT3rA53kbNafGbT5r++BrhRgx3sAo0cHoDAeG9g1ItTmUMgltz3Hy7Hazy1ODqNpR+C7QwqL6DYB52yA==}
-    hasBin: true
     optionalDependencies:
       turbo-darwin-64: 2.6.1
       turbo-darwin-arm64: 2.6.1
