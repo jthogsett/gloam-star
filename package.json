@@ -5,5 +5,10 @@
   "packageManager": "pnpm@8.15.6",
   "devDependencies": {
     "turbo": "^2.6.1"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "check-types": "turbo run check-types"
   }
 }
