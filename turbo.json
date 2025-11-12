@@ -8,6 +8,7 @@
     },
     "prebuild": {},
     "lint": {},
-    "check-types": {}
+    "check-types": {},
+    "test": {}
   }
 }

@@ -14,7 +14,7 @@ add the following files to your project:
 ```json
 {
   "extends": "config-vite/tsconfig.vite-config.json",
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts", "vitest.config.ts"]
 }
 ```
 
